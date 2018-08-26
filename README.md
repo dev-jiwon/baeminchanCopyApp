@@ -29,6 +29,4 @@
 ![장바구니](https://i.imgur.com/9X7Gmcc.png)
 
 ## 시연 영상
-[![시연 영상](https://i.imgur.com/H2wAMkF.jpg)](https://youtu.be/Eq7MUT-0UHU)
-
-[![Watch the video](https://i.imgur.com/H2wAMkF.jpg)](https://youtu.be/Eq7MUT-0UHU)
+https://youtu.be/Eq7MUT-0UHU
