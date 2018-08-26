@@ -28,6 +28,5 @@
 ### 장바구니 페이지
 ![장바구니](https://i.imgur.com/9X7Gmcc.png)
 
-## 시현 영상
-[![실현 영상](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://www.youtube.com/watch?v=Eq7MUT-0UHU&t=4s)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Eq7MUT-0UHU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+## 시연 영상
+[![ 영상](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://www.youtube.com/watch?v=Eq7MUT-0UHU)
