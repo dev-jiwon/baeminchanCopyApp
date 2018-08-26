@@ -1,5 +1,8 @@
 # baeminchanCopyApp (배민찬 앱 카피)
 
+## 시연 영상
+https://youtu.be/Eq7MUT-0UHU
+
 ## 페이지 이미지
 ### 메인 페이지
 ![메인 페이지](https://i.imgur.com/H2wAMkF.jpg)
@@ -28,5 +31,3 @@
 ### 장바구니 페이지
 ![장바구니](https://i.imgur.com/9X7Gmcc.png)
 
-## 시연 영상
-https://youtu.be/Eq7MUT-0UHU
