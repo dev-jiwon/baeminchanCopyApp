@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<device id="retina4_7" orientation="portrait">
+<adaptation id="fullscreen"/>
+</device>
+<dependencies>
+<deployment identifier="iOS"/>
+<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+<capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+<capability name="Safe area layout guides" minToolsVersion="9.0"/>
+<capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+</dependencies>
+<objects>
+<placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+<placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+<view contentMode="scaleToFill" restorationIdentifier="MainHeaderView" id="iN0-l3-epB" customClass="MainHeaderView" customModule="_8_08_09_tableViewCollectionView" customModuleProvider="target">
+<rect key="frame" x="0.0" y="0.0" width="431" height="70"/>
+<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+<subviews>
+<view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q5C-Yj-D3S">
+<rect key="frame" x="0.0" y="0.0" width="431" height="70"/>
+<subviews>
+<view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U4m-O3-c9h">
+<rect key="frame" x="0.0" y="0.0" width="86" height="68"/>
+<subviews>
+<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="category_best_white" translatesAutoresizingMaskIntoConstraints="NO" id="mgT-Uk-kjW">
+<rect key="frame" x="30.5" y="8" width="25" height="25"/>
+<constraints>
+<constraint firstAttribute="width" secondItem="mgT-Uk-kjW" secondAttribute="height" multiplier="1:1" id="wdl-TV-f8b"/>
+</constraints>
+</imageView>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="배민찬 추천" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANQ-eH-8Ap">
+<rect key="frame" x="0.0" y="45" width="86" height="17"/>
+<fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+<color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+<nil key="highlightedColor"/>
+</label>
+<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oaB-z0-ivO">
+<rect key="frame" x="0.0" y="0.0" width="86" height="68"/>
+<connections>
+<action selector="someButtonClicked:" destination="-1" eventType="touchUpInside" id="2s8-Pa-gj7"/>
+</connections>
+</button>
+</subviews>
+<color key="backgroundColor" red="0.20784313730000001" green="0.75686274509999996" blue="0.73333333329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<constraints>
+<constraint firstItem="oaB-z0-ivO" firstAttribute="height" secondItem="U4m-O3-c9h" secondAttribute="height" id="G9n-9U-9gI"/>
+<constraint firstItem="oaB-z0-ivO" firstAttribute="centerY" secondItem="U4m-O3-c9h" secondAttribute="centerY" id="W7i-wi-riQ"/>
+<constraint firstItem="oaB-z0-ivO" firstAttribute="width" secondItem="U4m-O3-c9h" secondAttribute="width" id="WZt-F3-9E1"/>
+<constraint firstAttribute="trailing" secondItem="ANQ-eH-8Ap" secondAttribute="trailing" id="XfZ-6X-FU4"/>
+<constraint firstAttribute="bottom" secondItem="ANQ-eH-8Ap" secondAttribute="bottom" constant="6" id="crE-bM-vye"/>
+<constraint firstItem="ANQ-eH-8Ap" firstAttribute="leading" secondItem="U4m-O3-c9h" secondAttribute="leading" id="fiD-AE-eqq"/>
+<constraint firstItem="mgT-Uk-kjW" firstAttribute="centerX" secondItem="U4m-O3-c9h" secondAttribute="centerX" id="mrg-2z-r3z"/>
+<constraint firstItem="oaB-z0-ivO" firstAttribute="centerX" secondItem="U4m-O3-c9h" secondAttribute="centerX" id="p3c-mp-EZb"/>
+<constraint firstItem="mgT-Uk-kjW" firstAttribute="top" secondItem="U4m-O3-c9h" secondAttribute="top" constant="8" id="ygG-xF-V8U"/>
+</constraints>
+</view>
+<view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CX0-pn-iOp">
+<rect key="frame" x="86" y="0.0" width="86.5" height="68"/>
+<subviews>
+<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="category_side_dish_black" translatesAutoresizingMaskIntoConstraints="NO" id="DEc-nJ-owP">
+<rect key="frame" x="31" y="8" width="25" height="25"/>
+<constraints>
+<constraint firstAttribute="width" secondItem="DEc-nJ-owP" secondAttribute="height" multiplier="1:1" id="fDb-mY-3E4"/>
+</constraints>
+</imageView>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="밑반찬" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzU-Te-OiF">
+<rect key="frame" x="0.0" y="43" width="86.5" height="17"/>
+<fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+<nil key="highlightedColor"/>
+</label>
+<button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gM1-Wg-j8K">
+<rect key="frame" x="0.0" y="0.0" width="86.5" height="68"/>
+<connections>
+<action selector="someButtonClicked:" destination="-2" eventType="touchUpInside" id="h4h-uq-NMg"/>
+</connections>
+</button>
+</subviews>
+<color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+<constraints>
+<constraint firstItem="gM1-Wg-j8K" firstAttribute="height" secondItem="CX0-pn-iOp" secondAttribute="height" id="AuN-OO-ttS"/>
+<constraint firstItem="gM1-Wg-j8K" firstAttribute="centerY" secondItem="CX0-pn-iOp" secondAttribute="centerY" id="Dwz-vH-Ms3"/>
+<constraint firstItem="DEc-nJ-owP" firstAttribute="centerX" secondItem="CX0-pn-iOp" secondAttribute="centerX" id="N5F-YR-ef8"/>
+<constraint firstItem="gM1-Wg-j8K" firstAttribute="centerX" secondItem="CX0-pn-iOp" secondAttribute="centerX" id="PpA-oY-lBW"/>
+<constraint firstItem="DEc-nJ-owP" firstAttribute="top" secondItem="CX0-pn-iOp" secondAttribute="top" constant="8" id="arN-YH-jk7"/>
+<constraint firstAttribute="bottom" secondItem="qzU-Te-OiF" secondAttribute="bottom" constant="8" id="cec-Au-ScF"/>
+<constraint firstItem="gM1-Wg-j8K" firstAttribute="width" secondItem="CX0-pn-iOp" secondAttribute="width" id="swV-0Q-XKn"/>
+<constraint firstItem="qzU-Te-OiF" firstAttribute="leading" secondItem="CX0-pn-iOp" secondAttribute="leading" id="tRi-0d-R6F"/>
+<constraint firstAttribute="trailing" secondItem="qzU-Te-OiF" secondAttribute="trailing" id="uRV-me-1UJ"/>
+</constraints>
+</view>
+<view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XFO-JM-QU3">
+<rect key="frame" x="172.5" y="0.0" width="86" height="68"/>
+<subviews>
+<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="category_main_dish_black" translatesAutoresizingMaskIntoConstraints="NO" id="ll7-TI-3sX">
+<rect key="frame" x="30.5" y="8" width="25" height="25"/>
+<constraints>
+<constraint firstAttribute="width" secondItem="ll7-TI-3sX" secondAttribute="height" multiplier="1:1" id="khF-sl-tBX"/>
+</constraints>
+</imageView>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="메인반찬" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vaS-AX-g6G">
+<rect key="frame" x="0.0" y="45" width="86" height="17"/>
+<fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+<nil key="highlightedColor"/>
+</label>
+<button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CBY-oV-zAI">
+<rect key="frame" x="0.0" y="0.0" width="86" height="68"/>
+<connections>
+<action selector="someButtonClicked:" destination="-2" eventType="touchUpInside" id="KKE-nF-S5z"/>
+</connections>
+</button>
+</subviews>
+<color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+<constraints>
+<constraint firstItem="CBY-oV-zAI" firstAttribute="centerY" secondItem="XFO-JM-QU3" secondAttribute="centerY" id="4Mn-26-vCr"/>
+<constraint firstItem="CBY-oV-zAI" firstAttribute="width" secondItem="XFO-JM-QU3" secondAttribute="width" id="8wW-Kx-byM"/>
+<constraint firstItem="CBY-oV-zAI" firstAttribute="centerX" secondItem="XFO-JM-QU3" secondAttribute="centerX" id="9n8-vq-NPv"/>
+<constraint firstAttribute="bottom" secondItem="vaS-AX-g6G" secondAttribute="bottom" constant="6" id="HLv-kh-Z7V"/>
+<constraint firstItem="vaS-AX-g6G" firstAttribute="leading" secondItem="XFO-JM-QU3" secondAttribute="leading" id="Pfw-Ji-mkm"/>
+<constraint firstItem="ll7-TI-3sX" firstAttribute="top" secondItem="XFO-JM-QU3" secondAttribute="top" constant="8" id="TT4-bj-j9G"/>
+<constraint firstAttribute="trailing" secondItem="vaS-AX-g6G" secondAttribute="trailing" id="Vwg-Ro-aAn"/>
+<constraint firstItem="CBY-oV-zAI" firstAttribute="height" secondItem="XFO-JM-QU3" secondAttribute="height" id="g9W-Tv-pfp"/>
+<constraint firstItem="ll7-TI-3sX" firstAttribute="centerX" secondItem="XFO-JM-QU3" secondAttribute="centerX" id="u2L-Ta-E5P"/>
+</constraints>
+</view>
+<view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IND-ev-Ede">
+<rect key="frame" x="258.5" y="0.0" width="86.5" height="68"/>
+<subviews>
+<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="category_soup_black" translatesAutoresizingMaskIntoConstraints="NO" id="i0o-7K-LI5">
+<rect key="frame" x="30" y="8" width="27" height="27"/>
+<constraints>
+<constraint firstAttribute="width" secondItem="i0o-7K-LI5" secondAttribute="height" multiplier="1:1" id="8kP-Vq-wte"/>
+</constraints>
+</imageView>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="국·찌개" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQd-0E-gyC">
+<rect key="frame" x="0.0" y="45" width="86.5" height="17"/>
+<fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+<nil key="highlightedColor"/>
+</label>
+<button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qH-dI-dOw">
+<rect key="frame" x="0.0" y="0.0" width="86.5" height="68"/>
+<connections>
+<action selector="someButtonClicked:" destination="-2" eventType="touchUpInside" id="TVB-iB-GnZ"/>
+</connections>
+</button>
+</subviews>
+<color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+<constraints>
+<constraint firstAttribute="bottom" secondItem="iQd-0E-gyC" secondAttribute="bottom" constant="6" id="2la-jW-QFY"/>
+<constraint firstItem="1qH-dI-dOw" firstAttribute="width" secondItem="IND-ev-Ede" secondAttribute="width" id="3Ok-pk-wdA"/>
+<constraint firstAttribute="trailing" secondItem="iQd-0E-gyC" secondAttribute="trailing" id="AL5-bc-fOJ"/>
+<constraint firstItem="1qH-dI-dOw" firstAttribute="centerX" secondItem="IND-ev-Ede" secondAttribute="centerX" id="Bdt-WZ-FT4"/>
+<constraint firstItem="1qH-dI-dOw" firstAttribute="centerY" secondItem="IND-ev-Ede" secondAttribute="centerY" id="IHU-Xg-qMH"/>
+<constraint firstItem="1qH-dI-dOw" firstAttribute="height" secondItem="IND-ev-Ede" secondAttribute="height" id="U2R-jp-1qm"/>
+<constraint firstItem="i0o-7K-LI5" firstAttribute="centerX" secondItem="IND-ev-Ede" secondAttribute="centerX" id="a27-X0-BS6"/>
+<constraint firstItem="iQd-0E-gyC" firstAttribute="leading" secondItem="IND-ev-Ede" secondAttribute="leading" id="k9I-Pv-fla"/>
+<constraint firstItem="i0o-7K-LI5" firstAttribute="top" secondItem="IND-ev-Ede" secondAttribute="top" constant="8" id="pDm-xH-Mfv"/>
+</constraints>
+</view>
+<view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vad-Se-qrl">
+<rect key="frame" x="345" y="0.0" width="86" height="68"/>
+<subviews>
+<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="category_snack_black" translatesAutoresizingMaskIntoConstraints="NO" id="tu8-he-HrK">
+<rect key="frame" x="30.5" y="8" width="25" height="25"/>
+<constraints>
+<constraint firstAttribute="width" secondItem="tu8-he-HrK" secondAttribute="height" multiplier="1:1" id="0jV-6l-DiW"/>
+</constraints>
+</imageView>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="간식" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fxa-t5-qcX">
+<rect key="frame" x="0.0" y="45" width="86" height="17"/>
+<fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+<nil key="highlightedColor"/>
+</label>
+<button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k49-8p-dCe">
+<rect key="frame" x="0.0" y="0.0" width="86" height="68"/>
+<connections>
+<action selector="someButtonClicked:" destination="-2" eventType="touchUpInside" id="t7h-cu-Wn3"/>
+</connections>
+</button>
+</subviews>
+<color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+<constraints>
+<constraint firstItem="fxa-t5-qcX" firstAttribute="leading" secondItem="vad-Se-qrl" secondAttribute="leading" id="EkA-9D-5TR"/>
+<constraint firstAttribute="bottom" secondItem="fxa-t5-qcX" secondAttribute="bottom" constant="6" id="Nl5-f0-fba"/>
+<constraint firstItem="tu8-he-HrK" firstAttribute="centerX" secondItem="vad-Se-qrl" secondAttribute="centerX" id="Nm3-NB-f9U"/>
+<constraint firstItem="k49-8p-dCe" firstAttribute="centerY" secondItem="vad-Se-qrl" secondAttribute="centerY" id="Qef-po-io7"/>
+<constraint firstItem="k49-8p-dCe" firstAttribute="centerX" secondItem="vad-Se-qrl" secondAttribute="centerX" id="bBb-KB-uSC"/>
+<constraint firstItem="k49-8p-dCe" firstAttribute="height" secondItem="vad-Se-qrl" secondAttribute="height" id="cUn-YZ-tHN"/>
+<constraint firstItem="k49-8p-dCe" firstAttribute="width" secondItem="vad-Se-qrl" secondAttribute="width" id="fga-Gg-VDp"/>
+<constraint firstItem="tu8-he-HrK" firstAttribute="top" secondItem="vad-Se-qrl" secondAttribute="top" constant="8" id="hBm-pH-bOe"/>
+<constraint firstAttribute="trailing" secondItem="fxa-t5-qcX" secondAttribute="trailing" id="wZq-wi-MxI"/>
+</constraints>
+</view>
+</subviews>
+<color key="backgroundColor" red="0.20784313730000001" green="0.75686274509999996" blue="0.73333333329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<constraints>
+<constraint firstItem="IND-ev-Ede" firstAttribute="top" secondItem="U4m-O3-c9h" secondAttribute="top" id="1cE-pJ-ClN"/>
+<constraint firstItem="vad-Se-qrl" firstAttribute="bottom" secondItem="U4m-O3-c9h" secondAttribute="bottom" id="47v-VG-zK6"/>
+<constraint firstItem="IND-ev-Ede" firstAttribute="width" secondItem="U4m-O3-c9h" secondAttribute="width" id="5Ds-Cu-18y"/>
+<constraint firstItem="XFO-JM-QU3" firstAttribute="top" secondItem="U4m-O3-c9h" secondAttribute="top" id="9yA-RP-JHV"/>
+<constraint firstItem="U4m-O3-c9h" firstAttribute="leading" secondItem="q5C-Yj-D3S" secondAttribute="leading" id="AtJ-j2-JEc"/>
+<constraint firstItem="XFO-JM-QU3" firstAttribute="width" secondItem="U4m-O3-c9h" secondAttribute="width" id="AzW-US-SB1"/>
+<constraint firstItem="CX0-pn-iOp" firstAttribute="leading" secondItem="U4m-O3-c9h" secondAttribute="trailing" id="C0D-Vo-gis"/>
+<constraint firstItem="vad-Se-qrl" firstAttribute="top" secondItem="U4m-O3-c9h" secondAttribute="top" id="Rdr-8l-Khv"/>
+<constraint firstAttribute="trailing" secondItem="vad-Se-qrl" secondAttribute="trailing" id="SM1-sQ-6iB"/>
+<constraint firstItem="IND-ev-Ede" firstAttribute="leading" secondItem="XFO-JM-QU3" secondAttribute="trailing" id="XMl-oh-Dmo"/>
+<constraint firstItem="IND-ev-Ede" firstAttribute="bottom" secondItem="U4m-O3-c9h" secondAttribute="bottom" id="YcB-Ol-i0O"/>
+<constraint firstItem="XFO-JM-QU3" firstAttribute="leading" secondItem="CX0-pn-iOp" secondAttribute="trailing" id="b06-QF-Vb5"/>
+<constraint firstItem="XFO-JM-QU3" firstAttribute="bottom" secondItem="U4m-O3-c9h" secondAttribute="bottom" id="bXm-RP-e2a"/>
+<constraint firstItem="U4m-O3-c9h" firstAttribute="top" secondItem="q5C-Yj-D3S" secondAttribute="top" id="bpb-mw-3JY"/>
+<constraint firstItem="vad-Se-qrl" firstAttribute="leading" secondItem="IND-ev-Ede" secondAttribute="trailing" id="eLy-TF-kfH"/>
+<constraint firstItem="CX0-pn-iOp" firstAttribute="top" secondItem="U4m-O3-c9h" secondAttribute="top" id="fXg-n5-cXj"/>
+<constraint firstItem="CX0-pn-iOp" firstAttribute="bottom" secondItem="U4m-O3-c9h" secondAttribute="bottom" id="oYa-pB-hCl"/>
+<constraint firstItem="vad-Se-qrl" firstAttribute="width" secondItem="U4m-O3-c9h" secondAttribute="width" id="xBe-c0-qnN"/>
+<constraint firstItem="CX0-pn-iOp" firstAttribute="width" secondItem="U4m-O3-c9h" secondAttribute="width" id="y6B-Ir-QXC"/>
+<constraint firstAttribute="bottom" secondItem="U4m-O3-c9h" secondAttribute="bottom" constant="2" id="zXK-kD-fwW"/>
+</constraints>
+</view>
+</subviews>
+<color key="backgroundColor" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<constraints>
+<constraint firstItem="q5C-Yj-D3S" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="52X-OD-WHN"/>
+<constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="q5C-Yj-D3S" secondAttribute="trailing" id="pqT-kC-khh"/>
+<constraint firstAttribute="bottom" secondItem="q5C-Yj-D3S" secondAttribute="bottom" id="r8V-MV-WKT"/>
+<constraint firstItem="q5C-Yj-D3S" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="u2W-qZ-v70"/>
+</constraints>
+<freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+<viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+<connections>
+<outlet property="fifthImageView" destination="tu8-he-HrK" id="ozn-Ef-Ia1"/>
+<outlet property="fifthTitle" destination="fxa-t5-qcX" id="V7r-Vd-Ytn"/>
+<outlet property="fifthView" destination="vad-Se-qrl" id="ZZX-BW-zKY"/>
+<outlet property="firstImageView" destination="mgT-Uk-kjW" id="EyK-Pe-AjR"/>
+<outlet property="firstTitle" destination="ANQ-eH-8Ap" id="kAl-JP-1j7"/>
+<outlet property="firstView" destination="U4m-O3-c9h" id="yCX-li-c4j"/>
+<outlet property="fourthImageView" destination="i0o-7K-LI5" id="YIZ-rZ-le9"/>
+<outlet property="fourthTitle" destination="iQd-0E-gyC" id="QQe-1b-WVl"/>
+<outlet property="fourthView" destination="IND-ev-Ede" id="4Zq-sG-yAA"/>
+<outlet property="secondImageView" destination="DEc-nJ-owP" id="uis-Du-3Sn"/>
+<outlet property="secondTitle" destination="qzU-Te-OiF" id="ARy-s0-c67"/>
+<outlet property="secondView" destination="CX0-pn-iOp" id="PBU-We-AJI"/>
+<outlet property="thirdImageView" destination="ll7-TI-3sX" id="bfQ-us-eMA"/>
+<outlet property="thirdTitle" destination="vaS-AX-g6G" id="Pgj-xi-rcB"/>
+<outlet property="thirdView" destination="XFO-JM-QU3" id="aCh-s9-lNj"/>
+</connections>
+<point key="canvasLocation" x="-188" y="-419"/>
+</view>
+</objects>
+<resources>
+<image name="category_best_white" width="25" height="25"/>
+<image name="category_main_dish_black" width="25" height="25"/>
+<image name="category_side_dish_black" width="25" height="25"/>
+<image name="category_snack_black" width="25" height="25"/>
+<image name="category_soup_black" width="27" height="27"/>
+</resources>
+</document>

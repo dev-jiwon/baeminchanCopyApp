@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="DeCollectionViewCell" customModule="Baeminchan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="272" height="449"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="272" height="449"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Om7-sT-WYZ">
+                        <rect key="frame" x="0.0" y="0.0" width="272" height="408"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Om7-sT-WYZ" secondAttribute="height" multiplier="300:450" id="49P-J8-0sH"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Om7-sT-WYZ" secondAttribute="trailing" id="Mmn-sD-LPc"/>
+                <constraint firstItem="Om7-sT-WYZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="j35-Bs-4pB"/>
+                <constraint firstItem="Om7-sT-WYZ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="o5A-jb-gBT"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="272" height="449"/>
+            <connections>
+                <outlet property="Imageview" destination="Om7-sT-WYZ" id="yJi-QT-RV9"/>
+            </connections>
+            <point key="canvasLocation" x="145" y="253.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

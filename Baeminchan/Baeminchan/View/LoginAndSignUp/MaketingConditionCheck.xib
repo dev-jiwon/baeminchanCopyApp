@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<device id="retina4_7" orientation="portrait">
+<adaptation id="fullscreen"/>
+</device>
+<dependencies>
+<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+<capability name="Safe area layout guides" minToolsVersion="9.0"/>
+<capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+</dependencies>
+<objects>
+<placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+<placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+<view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MaketingConditionCheck" customModule="_8_08_02_Login" customModuleProvider="target">
+<rect key="frame" x="0.0" y="0.0" width="346" height="53"/>
+<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+<subviews>
+<label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이용약관에 동의합니다.(필수)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qo6-9a-qe1">
+<rect key="frame" x="16" y="0.0" width="260" height="28"/>
+<fontDescription key="fontDescription" type="system" pointSize="14"/>
+<nil key="textColor"/>
+<nil key="highlightedColor"/>
+</label>
+<imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkOff" translatesAutoresizingMaskIntoConstraints="NO" id="OnJ-xH-H2c">
+<rect key="frame" x="306" y="0.0" width="24" height="24"/>
+<constraints>
+<constraint firstAttribute="width" secondItem="OnJ-xH-H2c" secondAttribute="height" multiplier="1:1" id="XDN-ju-coF"/>
+</constraints>
+</imageView>
+<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUC-Sj-jh0">
+<rect key="frame" x="16" y="27" width="39" height="26"/>
+<fontDescription key="fontDescription" type="system" pointSize="11"/>
+<state key="normal" title="내용보기">
+<color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+</state>
+</button>
+<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vMT-hg-aYg">
+<rect key="frame" x="13" y="0.0" width="320" height="28"/>
+<fontDescription key="fontDescription" type="system" pointSize="13"/>
+<connections>
+<action selector="checkAndCheckOut:" destination="iN0-l3-epB" eventType="touchUpInside" id="OOa-YV-jZu"/>
+</connections>
+</button>
+</subviews>
+<constraints>
+<constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="OnJ-xH-H2c" secondAttribute="trailing" constant="16" id="6KA-0e-K2Q"/>
+<constraint firstItem="OnJ-xH-H2c" firstAttribute="leading" secondItem="Qo6-9a-qe1" secondAttribute="trailing" constant="30" id="84q-Bw-w4Y"/>
+<constraint firstItem="Qo6-9a-qe1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="DLD-6C-iOB"/>
+<constraint firstItem="vUC-Sj-jh0" firstAttribute="leading" secondItem="Qo6-9a-qe1" secondAttribute="leading" id="IoK-b4-s1P"/>
+<constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="vMT-hg-aYg" secondAttribute="trailing" constant="13" id="JeG-Ur-pOs"/>
+<constraint firstItem="vMT-hg-aYg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="13" id="Jvo-7s-sc3"/>
+<constraint firstItem="Qo6-9a-qe1" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="PeV-kz-e6W"/>
+<constraint firstItem="vMT-hg-aYg" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="RDZ-sw-zqE"/>
+<constraint firstItem="vMT-hg-aYg" firstAttribute="height" secondItem="Qo6-9a-qe1" secondAttribute="height" id="SFz-Lp-w0L"/>
+<constraint firstItem="vMT-hg-aYg" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="WkF-cK-Dvy"/>
+<constraint firstItem="vUC-Sj-jh0" firstAttribute="top" secondItem="Qo6-9a-qe1" secondAttribute="bottom" constant="-1" id="iJH-au-IIr"/>
+<constraint firstItem="OnJ-xH-H2c" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="nNb-tb-K3k"/>
+</constraints>
+<freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+<viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+<connections>
+<outlet property="allOfButton" destination="vMT-hg-aYg" id="4hq-B9-wwi"/>
+<outlet property="checkBox" destination="OnJ-xH-H2c" id="zZl-Nf-IX0"/>
+<outlet property="detailButton" destination="vUC-Sj-jh0" id="Kjs-TW-o7b"/>
+<outlet property="titleLabel" destination="Qo6-9a-qe1" id="RvA-Rh-vsh"/>
+</connections>
+<point key="canvasLocation" x="-212" y="-285.5"/>
+</view>
+</objects>
+<resources>
+<image name="checkOff" width="24" height="24"/>
+</resources>
+</document>

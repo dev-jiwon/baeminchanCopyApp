@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RecentlyDestinationCell" rowHeight="137" id="KGk-i7-Jjw" customClass="RecentlyDestinationCell" customModule="Baeminchan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="332" height="137"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="332" height="136.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZEQ-Ep-s5a">
+                        <rect key="frame" x="0.0" y="0.0" width="332" height="73.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[새벽배송] 김종찬 (기본 배송지)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUB-dA-wdz">
+                                <rect key="frame" x="20" y="10" width="153.5" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="서울특별시 성동구 성덕정3길 8-17 (성수동1가) 1층" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7v-xE-bUd">
+                                <rect key="frame" x="20" y="29.5" width="212" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="010-4757-4397" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OEn-Da-oMo">
+                                <rect key="frame" x="20" y="59" width="91" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YhF-7w-POr" customClass="CheckBoxButton" customModule="Baeminchan" customModuleProvider="target">
+                                <rect key="frame" x="264" y="10" width="48" height="27"/>
+                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="    선택    ">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48u-u7-ZcI" customClass="CheckBoxButton" customModule="Baeminchan" customModuleProvider="target">
+                                <rect key="frame" x="264" y="42" width="48" height="27"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="    삭제    ">
+                                    <color key="titleColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OEn-Da-oMo" firstAttribute="leading" secondItem="ZEQ-Ep-s5a" secondAttribute="leading" constant="20" id="2fH-OV-Ruq"/>
+                            <constraint firstItem="OEn-Da-oMo" firstAttribute="top" secondItem="s7v-xE-bUd" secondAttribute="bottom" constant="1" id="575-Wh-sVV"/>
+                            <constraint firstAttribute="trailing" secondItem="YhF-7w-POr" secondAttribute="trailing" constant="20" id="73E-f7-imo"/>
+                            <constraint firstItem="fUB-dA-wdz" firstAttribute="top" secondItem="ZEQ-Ep-s5a" secondAttribute="top" constant="10" id="8jY-wh-krU"/>
+                            <constraint firstItem="fUB-dA-wdz" firstAttribute="leading" secondItem="ZEQ-Ep-s5a" secondAttribute="leading" constant="20" id="G3w-yQ-5kR"/>
+                            <constraint firstAttribute="width" secondItem="ZEQ-Ep-s5a" secondAttribute="height" multiplier="383:85" id="J92-sa-bma"/>
+                            <constraint firstItem="s7v-xE-bUd" firstAttribute="leading" secondItem="ZEQ-Ep-s5a" secondAttribute="leading" constant="20" id="K5r-sy-qzs"/>
+                            <constraint firstAttribute="trailing" secondItem="48u-u7-ZcI" secondAttribute="trailing" constant="20" id="bLy-cN-3nk"/>
+                            <constraint firstItem="YhF-7w-POr" firstAttribute="top" secondItem="ZEQ-Ep-s5a" secondAttribute="top" constant="10" id="i03-po-w14"/>
+                            <constraint firstItem="48u-u7-ZcI" firstAttribute="top" secondItem="YhF-7w-POr" secondAttribute="bottom" constant="5" id="ipd-NU-pT7"/>
+                            <constraint firstItem="s7v-xE-bUd" firstAttribute="top" secondItem="fUB-dA-wdz" secondAttribute="bottom" constant="5" id="pTW-A0-5XD"/>
+                            <constraint firstAttribute="trailing" secondItem="s7v-xE-bUd" secondAttribute="trailing" constant="100" id="sji-pN-trc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ZEQ-Ep-s5a" secondAttribute="bottom" id="JNl-MH-ly9"/>
+                    <constraint firstItem="ZEQ-Ep-s5a" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="ShQ-fv-fPT"/>
+                    <constraint firstItem="ZEQ-Ep-s5a" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="UiG-Tc-LX6"/>
+                    <constraint firstAttribute="trailing" secondItem="ZEQ-Ep-s5a" secondAttribute="trailing" id="xgu-Mk-Q3m"/>
+                    <constraint firstItem="ZEQ-Ep-s5a" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="yT9-Wq-FB6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="41" y="100.5"/>
+        </tableViewCell>
+    </objects>
+</document>

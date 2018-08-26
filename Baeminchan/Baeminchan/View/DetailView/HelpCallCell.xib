@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HelpCallCell" rowHeight="194" id="KGk-i7-Jjw" customClass="HelpCallCell" customModule="Baeminchan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="194"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="193.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qv3-ML-GS8">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="193.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1899 - 2468" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3E2-jA-moF">
+                                <rect key="frame" x="10" y="56.5" width="373" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lCs-Kx-dT2">
+                                <rect key="frame" x="10" y="100" width="373" height="38.5"/>
+                                <string key="text">평일 06:30 ~ 18:00 토요일 06:30 ~ 15:00 
+일요일 공휴일 휴무 (배송있는 공휴일은 운영)</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="배민찬 고객센터" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXB-z3-TNb">
+                                <rect key="frame" x="10" y="20" width="373" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hdx-NN-FkO">
+                                <rect key="frame" x="10" y="148.5" width="373" height="35"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="공지사항">
+                                    <color key="titleColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="YXB-z3-TNb" secondAttribute="trailing" constant="10" id="0Q3-5M-3S6"/>
+                            <constraint firstItem="3E2-jA-moF" firstAttribute="top" secondItem="YXB-z3-TNb" secondAttribute="bottom" constant="10" id="31D-4y-5BC"/>
+                            <constraint firstItem="Hdx-NN-FkO" firstAttribute="top" secondItem="lCs-Kx-dT2" secondAttribute="bottom" constant="10" id="A7U-LJ-bZt"/>
+                            <constraint firstItem="3E2-jA-moF" firstAttribute="leading" secondItem="Qv3-ML-GS8" secondAttribute="leading" constant="10" id="FfJ-Va-Yvv"/>
+                            <constraint firstItem="lCs-Kx-dT2" firstAttribute="top" secondItem="3E2-jA-moF" secondAttribute="bottom" constant="10" id="Gkf-0H-QjX"/>
+                            <constraint firstAttribute="trailing" secondItem="lCs-Kx-dT2" secondAttribute="trailing" constant="10" id="MGV-aS-1cb"/>
+                            <constraint firstAttribute="trailing" secondItem="3E2-jA-moF" secondAttribute="trailing" constant="10" id="XdP-hZ-Jy0"/>
+                            <constraint firstItem="YXB-z3-TNb" firstAttribute="top" secondItem="Qv3-ML-GS8" secondAttribute="top" constant="20" id="cnG-Hf-Z4m"/>
+                            <constraint firstItem="Hdx-NN-FkO" firstAttribute="leading" secondItem="Qv3-ML-GS8" secondAttribute="leading" constant="10" id="cvm-Mx-DIQ"/>
+                            <constraint firstItem="YXB-z3-TNb" firstAttribute="leading" secondItem="Qv3-ML-GS8" secondAttribute="leading" constant="10" id="dUm-f9-0I1"/>
+                            <constraint firstAttribute="bottom" secondItem="Hdx-NN-FkO" secondAttribute="bottom" constant="10" id="r4w-pI-XZI"/>
+                            <constraint firstItem="lCs-Kx-dT2" firstAttribute="leading" secondItem="Qv3-ML-GS8" secondAttribute="leading" constant="10" id="vJX-Iy-zpl"/>
+                            <constraint firstAttribute="trailing" secondItem="Hdx-NN-FkO" secondAttribute="trailing" constant="10" id="wOK-nA-Y33"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Qv3-ML-GS8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="13u-CY-TLb"/>
+                    <constraint firstItem="Qv3-ML-GS8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Clc-YM-pj0"/>
+                    <constraint firstAttribute="bottom" secondItem="Qv3-ML-GS8" secondAttribute="bottom" id="TY7-Fd-CcE"/>
+                    <constraint firstAttribute="trailing" secondItem="Qv3-ML-GS8" secondAttribute="trailing" id="gzK-YV-79P"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="71.5" y="129"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CheckMMSVIew" customModule="Baeminchan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pLa-Kj-oAW" customClass="CheckMMSVIew" customModule="Baeminchan" customModuleProvider="target">
+                    <rect key="frame" x="10" y="253.5" width="355" height="180"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zq3-dB-8qK">
+                            <rect key="frame" x="50" y="87.5" width="254" height="45"/>
+                            <color key="backgroundColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="254" id="aV8-Vv-T6A"/>
+                                <constraint firstAttribute="height" constant="45" id="brb-TE-GDe"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="인증번호 확인">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="checkMMSAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="wQp-Nw-M9I"/>
+                            </connections>
+                        </button>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="인증 실패" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="neI-ZK-rwh">
+                            <rect key="frame" x="10" y="142.5" width="335" height="14.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.93725490199999995" green="0.52156862749999999" blue="0.49019607840000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="neI-ZK-rwh" firstAttribute="leading" secondItem="pLa-Kj-oAW" secondAttribute="leading" constant="10" id="2cG-K7-TBi"/>
+                        <constraint firstAttribute="trailing" secondItem="neI-ZK-rwh" secondAttribute="trailing" constant="10" id="52b-7u-W9S"/>
+                        <constraint firstAttribute="height" constant="180" id="Rzo-0F-BV5"/>
+                        <constraint firstItem="neI-ZK-rwh" firstAttribute="top" secondItem="zq3-dB-8qK" secondAttribute="bottom" constant="10" id="lVk-xw-lY5"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dvs-oY-c4R">
+                    <rect key="frame" x="343" y="226.5" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="dvs-oY-c4R" secondAttribute="height" multiplier="1:1" id="t2H-rH-cl1"/>
+                    </constraints>
+                    <state key="normal" image="closeImage"/>
+                    <connections>
+                        <action selector="closeView:" destination="iN0-l3-epB" eventType="touchUpInside" id="Qws-Fd-alN"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="인증번호를 입력해주세요." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sAf-Jv-CA7">
+                    <rect key="frame" x="95" y="286" width="185" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="CUz-VC-ZlX"/>
+                        <constraint firstAttribute="width" constant="185" id="ccz-E5-wVR"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits" keyboardType="phonePad" textContentType="tel"/>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="sAf-Jv-CA7" firstAttribute="centerY" secondItem="pLa-Kj-oAW" secondAttribute="centerY" constant="-40" id="7PV-pF-1Mr"/>
+                <constraint firstItem="sAf-Jv-CA7" firstAttribute="centerX" secondItem="pLa-Kj-oAW" secondAttribute="centerX" id="7ee-g3-bwb"/>
+                <constraint firstItem="zq3-dB-8qK" firstAttribute="top" secondItem="sAf-Jv-CA7" secondAttribute="bottom" constant="20" id="DQR-EO-uAV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="pLa-Kj-oAW" secondAttribute="trailing" constant="10" id="UTv-qA-YVl"/>
+                <constraint firstItem="pLa-Kj-oAW" firstAttribute="top" secondItem="dvs-oY-c4R" secondAttribute="bottom" constant="5" id="eGw-he-o22"/>
+                <constraint firstItem="pLa-Kj-oAW" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="hD5-sR-mbV"/>
+                <constraint firstItem="dvs-oY-c4R" firstAttribute="trailing" secondItem="pLa-Kj-oAW" secondAttribute="trailing" id="owX-C9-oBo"/>
+                <constraint firstItem="zq3-dB-8qK" firstAttribute="centerX" secondItem="sAf-Jv-CA7" secondAttribute="centerX" id="pbm-6u-RT5"/>
+                <constraint firstItem="pLa-Kj-oAW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="qQd-St-sBf"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="resultLabel" destination="neI-ZK-rwh" id="S66-AT-tnd"/>
+                <outlet property="textField" destination="sAf-Jv-CA7" id="gPK-o3-3as"/>
+            </connections>
+            <point key="canvasLocation" x="10.5" y="-172.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="closeImage" width="19" height="19"/>
+    </resources>
+</document>

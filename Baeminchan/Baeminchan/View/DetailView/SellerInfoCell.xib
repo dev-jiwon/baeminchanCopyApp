@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SellerInfoCell" rowHeight="421" id="KGk-i7-Jjw" customClass="SellerInfoCell" customModule="Baeminchan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="354" height="421"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="354" height="420.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="il3-eg-3u9">
+                        <rect key="frame" x="0.0" y="0.0" width="354" height="420.5"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Vga-yi-9m0">
+                                <rect key="frame" x="10" y="46" width="334" height="354"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">(주)우아한신선들  대표이사:박일한 l 사업자등록번호 : 110-81-97233                         l 통신판매업신고 : 제2015-서울송 파-1733호 l 주소 : 서울특별시 송파구 올림픽로 348,6층 (방이동) l 개인정보담당자 : 김용재  l  이메일 :                                            l  고객센터 :   고객님의 안전거래를 위해 현금 등으로 결제 시 LG U+의 구매안전 서비스를 이용하실 수 있습니다.    @Woowahan Fresh. All Rights Reserved.  배민찬은 통신판매 중계자이며 통신판매의 당사자가 아닙니 다. 따라서 배민찬은 상품 거래정보 및 거래에 대해 책임지지 않습니다. 다만 회사가 판매하는 직매입 상품의 경우 판 매업체의 지위를 갖게 됩니다.</string>
+                                <color key="textColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="znt-Di-9Zo">
+                                <rect key="frame" x="243.5" y="7.5" width="90" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="개인정보처리방침">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JJD-Jh-neI">
+                                <rect key="frame" x="154.5" y="8" width="45" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="이용약관">
+                                    <color key="titleColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hf6-5U-To4">
+                                <rect key="frame" x="65.5" y="7.5" width="45" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="회사소개">
+                                    <color key="titleColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="l" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6yB-Sq-YHG">
+                                <rect key="frame" x="130.5" y="11" width="4" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="l" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzo-1J-Hb2">
+                                <rect key="frame" x="219.5" y="11" width="4" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rMe-hp-8TA">
+                                <rect key="frame" x="16" y="101" width="82" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="업자 정보확인]">
+                                            <attributes>
+                                                <color key="NSColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="14" name=".AppleSDGothicNeoI-Regular"/>
+                                                <integer key="NSUnderline" value="1"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ccH-WI-3oz">
+                                <rect key="frame" x="16" y="147" width="154" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="privacy@baeminchan.com">
+                                            <attributes>
+                                                <color key="NSColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="14" name=".AppleSDGothicNeoI-Regular"/>
+                                                <integer key="NSUnderline" value="1"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PQu-sx-CXe">
+                                <rect key="frame" x="248" y="152" width="66" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="1899-2468">
+                                            <attributes>
+                                                <color key="NSColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="14" name=".AppleSDGothicNeoI-Regular"/>
+                                                <integer key="NSUnderline" value="1"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mkX-O0-8rb">
+                                <rect key="frame" x="240" y="197" width="94" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="[서비스 가입사실">
+                                            <attributes>
+                                                <color key="NSColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="14" name=".AppleSDGothicNeoI-Regular"/>
+                                                <integer key="NSUnderline" value="1"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZsR-cB-GjF">
+                                <rect key="frame" x="16" y="216" width="30" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="확인]">
+                                            <attributes>
+                                                <color key="NSColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="14" name=".AppleSDGothicNeoI-Regular"/>
+                                                <integer key="NSUnderline" value="1"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IjX-At-3mp">
+                                <rect key="frame" x="303" y="84" width="30" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="[">
+                                            <attributes>
+                                                <color key="NSColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="14" name=".AppleSDGothicNeoI-Regular"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="사">
+                                            <attributes>
+                                                <color key="NSColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="14" name=".AppleSDGothicNeoI-Regular"/>
+                                                <integer key="NSUnderline" value="1"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Vga-yi-9m0" firstAttribute="leading" secondItem="il3-eg-3u9" secondAttribute="leading" constant="10" id="0S9-69-xrn"/>
+                            <constraint firstAttribute="bottom" secondItem="Vga-yi-9m0" secondAttribute="bottom" constant="20.5" id="7re-bR-TaB"/>
+                            <constraint firstAttribute="trailing" secondItem="Vga-yi-9m0" secondAttribute="trailing" constant="10" id="FQL-1Q-YGD"/>
+                            <constraint firstItem="Vga-yi-9m0" firstAttribute="top" secondItem="JJD-Jh-neI" secondAttribute="bottom" constant="10" id="Ird-LZ-FBp"/>
+                            <constraint firstItem="6yB-Sq-YHG" firstAttribute="leading" secondItem="Hf6-5U-To4" secondAttribute="trailing" constant="20" id="Poi-xr-EaL"/>
+                            <constraint firstItem="znt-Di-9Zo" firstAttribute="leading" secondItem="gzo-1J-Hb2" secondAttribute="trailing" constant="20" id="TwU-Xq-m8G"/>
+                            <constraint firstItem="Hf6-5U-To4" firstAttribute="centerY" secondItem="JJD-Jh-neI" secondAttribute="centerY" id="a1K-Ed-Zih"/>
+                            <constraint firstItem="6yB-Sq-YHG" firstAttribute="centerY" secondItem="JJD-Jh-neI" secondAttribute="centerY" id="gOo-zR-cnk"/>
+                            <constraint firstItem="znt-Di-9Zo" firstAttribute="centerY" secondItem="JJD-Jh-neI" secondAttribute="centerY" id="jXG-7H-n6e"/>
+                            <constraint firstItem="JJD-Jh-neI" firstAttribute="centerX" secondItem="il3-eg-3u9" secondAttribute="centerX" id="kBk-mE-IiP"/>
+                            <constraint firstItem="JJD-Jh-neI" firstAttribute="top" secondItem="il3-eg-3u9" secondAttribute="top" constant="8" id="nOn-W9-xUc"/>
+                            <constraint firstItem="JJD-Jh-neI" firstAttribute="leading" secondItem="6yB-Sq-YHG" secondAttribute="trailing" constant="20" id="onn-k0-w1F"/>
+                            <constraint firstItem="gzo-1J-Hb2" firstAttribute="centerY" secondItem="JJD-Jh-neI" secondAttribute="centerY" id="uiR-QM-ylV"/>
+                            <constraint firstItem="gzo-1J-Hb2" firstAttribute="leading" secondItem="JJD-Jh-neI" secondAttribute="trailing" constant="20" id="zhX-Lg-Anz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="il3-eg-3u9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="BAS-L5-CIs"/>
+                    <constraint firstItem="il3-eg-3u9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="EIC-YG-dSY"/>
+                    <constraint firstAttribute="bottom" secondItem="il3-eg-3u9" secondAttribute="bottom" id="Vcf-Eq-8yF"/>
+                    <constraint firstAttribute="trailing" secondItem="il3-eg-3u9" secondAttribute="trailing" id="rrV-Xc-xwd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="15" y="136.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_Baeminchan {
+  umbrella header "Pods-Baeminchan-umbrella.h"
+
+  export *
+  module * { export * }
+}
