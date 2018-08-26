@@ -30,3 +30,4 @@
 
 ## 시연 영상
 [![ 영상](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://www.youtube.com/watch?v=Eq7MUT-0UHU)
+https://youtu.be/Eq7MUT-0UHU
